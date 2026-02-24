@@ -1,0 +1,38 @@
+{
+  "name": "cortex-memory",
+  "version": "1.0.0",
+  "description": "Self-learning memory system for Claude Code agents",
+  "main": "index.js",
+  "bin": {
+    "cortex": "./bin/cortex.js"
+  },
+  "scripts": {
+    "test": "node bin/cortex.js init",
+    "postinstall": "chmod +x bin/cortex.js"
+  },
+  "keywords": ["claude", "ai", "memory", "learning", "automation", "claude-code"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/cortex-memory"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.20.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/",
+    "README.md"
+  ]
+}

@@ -1,0 +1,12 @@
+.git/
+.github/
+.gitignore
+.DS_Store
+*.log
+test-projects/
+examples/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
