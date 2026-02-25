@@ -4,18 +4,25 @@
   "description": "Self-learning memory system for Claude Code agents",
   "main": "index.js",
   "bin": {
-    "cortex": "./bin/cortex.js"
+    "cortex": "bin/cortex.js"
   },
   "scripts": {
     "test": "node bin/cortex.js init",
     "postinstall": "chmod +x bin/cortex.js"
   },
-  "keywords": ["claude", "ai", "memory", "learning", "automation", "claude-code"],
+  "keywords": [
+    "claude",
+    "ai",
+    "memory",
+    "learning",
+    "automation",
+    "claude-code"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Akshat171/cortex-memory"
+    "url": "git+https://github.com/Akshat171/cortex-memory.git"
   },
   "bugs": {
     "url": "https://github.com/Akshat171/cortex-memory/issues"
