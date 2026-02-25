@@ -1,6 +1,6 @@
 {
   "name": "cortex-memory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Self-learning memory system for Claude Code agents",
   "main": "index.js",
   "bin": {
